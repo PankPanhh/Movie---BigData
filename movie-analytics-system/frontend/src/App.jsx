@@ -6,6 +6,8 @@ import MoviePage from "./pages/MoviePage";
 import TheaterPage from "./pages/TheaterPage";
 import UserPage from "./pages/UserPage";
 import CommentPage from "./pages/CommentPage";
+import DebugPage from "./pages/DebugPage";
+import AnalyticsPage from "./pages/AnalyticsPage";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/movies" element={<MoviePage />} />
           <Route path="/users" element={<UserPage />} />
           <Route path="/comments" element={<CommentPage />} />
+          <Route path="/analytics" element={<AnalyticsPage />} />
+          <Route path="/debug" element={<DebugPage />} />
         </Routes>
       </main>
     </div>
